@@ -60,6 +60,7 @@ public class Board
     for (int i = 0; i < 3; i++) {
       for (int j = 0; j < 4; j++) {
         if (gameboard[i][j].isShowingValue() == true) {
+  
         board += gameboard[i][j].getValue() + " "; 
         }
         else {board += gameboard[i][j].getHidden() + " ";}
