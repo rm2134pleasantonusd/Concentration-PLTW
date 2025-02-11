@@ -1,4 +1,9 @@
 
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 class Main {
     /*  
         * Play the game of Concentration
@@ -9,8 +14,11 @@ class Main {
     
         public static void main(String[] args)
         {
-        Game game = new Game();
-        game.play();
+
+        
+
+        Board board = new Board();
+        new Game(board);
         }
     }
 

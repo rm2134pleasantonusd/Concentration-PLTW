@@ -38,6 +38,10 @@ public class Board
 
   }
 
+  public Tile[][] getGameboard() {
+    return gameboard;
+  }
+
  /** 
    * Returns a string representation of the board, getting the state of
    * each tile. If the tile is showing, displays its value, 
